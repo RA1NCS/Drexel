@@ -1,0 +1,231 @@
+body, html {
+    height: 179.8%;
+    width: 100%;
+}
+body {
+    overflow-x: hidden;
+    background-color: whitesmoke;
+    background-image: url(images/orangebackg2.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navBar {
+    background-color: whitesmoke;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-left: 13px;
+    margin-right: 28px;
+    background-position: cover;
+    background-position: center;
+    box-shadow: 0px 0px 3px 3px #e88932;
+}
+.navBar a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 18px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Poppins";
+}
+.navBar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.navBar a.active {
+    background-color: #e88932;
+    color: white;
+}
+.navBar img {
+    position: relative;
+    height: 50px;
+    margin-top: 6px;
+    margin-left: 7px;
+    background: transparent;
+}
+.bannerCS {
+    margin-left: 3px;
+}
+.bannerCS img {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 9px;
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 98%;
+    box-shadow: 0px 0px 3px 3px #e88932;
+}
+.backBox {
+    background-color: white;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    height: 1150px;
+    width: 98%;
+    border-radius: 20px;
+    background-position: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 5px 4px #e88932;
+}
+.backBox h2 {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+    color: #e88932;
+    letter-spacing: 30px;
+    text-decoration: underline;
+    text-decoration-color: #e88932;
+    text-shadow: 0px 0px 1px black, 0px 0px 0px #e88932;
+}
+.card {
+    left: 255px;
+    margin: 15px;
+    float: left;
+    width: 330px;
+    top: -50px;
+    border-radius: 10px;
+    position: relative;
+    background-color: #fafafa;
+    border: 1px solid grey;
+    margin-top: 75px;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+.card:hover {
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 1px rgb(127, 127, 127);
+}
+.card img {
+    float: center;
+    height: 200px;
+    border-radius: 20px;
+    padding: 15px;
+}
+.card h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.card p {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-size: 15px;
+    padding-left: 110px;
+}
+.curateBox {
+    position: relative;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 1171px;
+    width: 98%;
+    height: 460px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 4px #e88932;
+}
+.curateBox h1 {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 90px;
+    text-align: center;
+    position: relative;
+    top: 65px;
+    color: #e88932;
+    letter-spacing: 30px;
+    text-decoration: underline;
+    text-decoration-color: #e88932;
+    text-shadow: 0px 0px 1px black, 0px 0px 0px #e88932;
+}
+.curateBox p {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.expectBox {
+    position: relative;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: -46px;
+    width: 98%;
+    height: 480px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 4px #e88932;
+}
+.expectBox h1 {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 90px;
+    text-align: center;
+    position: relative;
+    top: 65px;
+    color: #e88932;
+    letter-spacing: 30px;
+    text-decoration: underline;
+    text-decoration-color: #e88932;
+    text-shadow: 0px 0px 1px black, 0px 0px 0px #e88932;
+}
+.expectBox p {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.contactBox {
+    position: relative;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: -46px;
+    width: 98%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 4px #e88932;
+}
+.contactBox h1 {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 90px;
+    text-align: center;
+    position: relative;
+    top: 65px;
+    color: #e88932;
+    letter-spacing: 30px;
+    text-decoration: underline;
+    text-decoration-color: #e88932;
+    text-shadow: 0px 0px 1px black, 0px 0px 0px #e88932;
+}
+.contactBox p {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+footer {
+    position: relative;
+    border-radius: 20px;
+    margin-left: 10px;
+    width: 98%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 4px #e88932;
+}
+footer p {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}

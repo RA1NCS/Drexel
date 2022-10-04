@@ -1,0 +1,114 @@
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(210, 210, 210);
+}
+.backBox {
+    background-color: whitesmoke;
+    position: absolute;
+    left: 5.5%;
+    height: 98%;
+    width: 94%;
+    border-radius: 1%;
+}
+.orangeBox {
+    background-color: #e88932;
+    position: absolute;
+    left: 0.34%;
+    height: 98.1%;
+    width: 4.8%;
+    border-radius: 0%;
+}
+.vertical {
+    height: 80%;
+    width: 3px;
+    background-color: rgb(210, 210, 210);
+    border-radius: 20%;
+    position: absolute;
+    top: 95px;
+    left: 44%;
+}
+.card {
+    top: 50px;
+    left: 15%;
+    margin: 15px;
+    float: left;
+    width: 330px;
+    border-radius: 10px;
+    position: relative;
+}
+.card:hover {
+    background-color: #fafafa;
+    border: 1px solid #e88932;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 1px #e88932;
+}
+.card img {
+    float: left;
+    width: 84px;
+    height: 84px;
+    border-radius: 20%;
+    padding: 15px;
+}
+.card h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-left: 110px;
+}
+.card p {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-size: 15px;
+    padding-left: 110px;
+}
+.specialRecc {
+    position: absolute;
+    top: 150px;
+    left: 1100px;
+    width: 425px;
+    border: 3px solid #e88932;
+    border-radius: 20px;
+}
+.specialRecc:hover {
+    background-color: #fafafa;
+    border: 3px solid #e88932;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 1px #e88932;
+}
+.specialRecc img {
+    float: top;
+    width: 395px;
+    height: 395px;
+    border-radius: 7.5%;
+    padding: 15px;
+}
+.specialRecc h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+.specialRecc h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.specialRecc p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+.verticalText {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+.verticalText h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: -0.75%;
+    top: 12.5%;
+    letter-spacing: 15px;
+}
