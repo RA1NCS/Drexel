@@ -10,6 +10,7 @@ body {
     background-position: cover;
     background-repeat: no-repeat;
     background-position: center;
+    zoom: 95%;
 }
 .navBar {
     background-color: whitesmoke;
