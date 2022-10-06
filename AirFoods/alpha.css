@@ -97,6 +97,7 @@ body {
     margin-top: 75px;
     margin-left: 20px;
     margin-right: 100px;
+    zoom: 95%;
 }
 .card:hover {
     border: 1px solid grey;
