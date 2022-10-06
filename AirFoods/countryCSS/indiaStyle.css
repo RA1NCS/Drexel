@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgb(210, 210, 210);
-    zoom: 95%;
+    zoom: 90%;
 }
 .backBox {
     background-color: whitesmoke;
