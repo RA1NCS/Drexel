@@ -1,6 +1,7 @@
 body, html {
     height: 179.8%;
     width: 100%;
+    zoom: 95%;
 }
 body {
     overflow-x: hidden;
