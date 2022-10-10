@@ -1,40 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<meta charset="utf-8">
-	<meta name="author" content="ShreyanG & JeremyT">
-	<title> AIRFOODS ~ A Taste of Everything, Anywhere </title>
-	<link href="alpha.css" rel="stylesheet"/>
-	<link rel="icon" href="https://omggamer.com/wp-content/uploads/2021/12/Everywhere-Game-Release-Date.jpg">
-	<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Poppins&family=Questrial&family=Raleway&display=swap" rel="stylesheet"> </head>
-
-<body>
-	<div class="navBar"> <a id="home" href="#contact">Contact Us</a> <a href="#expectations">What To Expect</a> <a href="#curation">How We Curate Our Food</a> <a class="active" href="#home">About Us</a> <img src="images/logo.png" alt="AIRFOODS Logo" /> </div>
-	<div class="bannerCS"> <img src="images/banner.jpg" alt="banner" /> </div>
-	<div class="backBox"> <b><u><h2>MENU HIGHLIGHTS</h2></u></b>
-		<div class="card"> <b> <u> <h1> <a href="fromTheUK.html">FROM THE UK</a> </h1> </u> </b> <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_the_United_Kingdom_%283-2_aspect_ratio%29.svg" alternate="UK FLAG" /> </div>
-		<div class="card"> <b> <u> <h1> <a href="fromFrance.html">FROM FRANCE</a> </h1> </u> </b> <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg" alternate="FRENCH FLAG" /> </div>
-		<div class="card"> <b> <u> <h1> <a href="fromItaly.html">FROM ITALY</a> </h1> </u> </b> <img src="https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg" alternate="ITALY FLAG" /> </div>
-		<div class="card"> <b> <u> <h1> <a href="fromIndia.html">FROM INDIA</a> </h1> </u> </b> <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" alternate="INDIA FLAG" /> </div>
-		<div class="card"> <b> <u> <h1> <a href="fromAfrica.html">FROM AFRICA</a> </h1> </u> </b> <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg" alternate="AFRICA FLAG" /> </div>
-		<div class="card"> <b> <u> <h1> <a href="fromChina.html">FROM CHINA</a> </h1> </u> </b> <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg" alternate="CHINA FLAG" /> </div>
-	</div>
-	<div class="curateBox">
-		<h1 id="curation">HOW WE CURATE OUR FOOD</h1>
-		<p> Each selection of plates from a specific region can be ordered as a flight to give you a general taste of the region as determined by the foods the locals eat often or for celebrations. The Chef may also propose named flights that take you on a world tour of a specific ingredient or cooking method. For example, slow cooked beans are found in many parts of the world, and a flight may highlight how different cultures have treated this basic ingredient and cooking method. Similarly, wrapping a minced filling in dough is a common thread among Samosas, Dim Sums, Raviolis, Gyozas, Empanadas and Pasties. Feel free to find a thread among the small plate offerings and pull together your own flight! </p>
-	</div>
-	<div class="expectBox">
-		<h1 id="expectations">WHAT TO EXPECT</h1>
-		<p> A liesurely paced dinner with your partner or group! Our seats are deep and comfortable, our lighting low and augmented with fireplaces and candles. Traveling the world culinarily should not be rushed. We are a bring your own bottle establishment, so start off by giving us your bottles and we will chill and serve accordingly. Our dishes can be ordered individually and gradually over the course of your evening or you can order from the curated flights. When ordering flights the plates will not come out all at one time. We want you to be able to enjoy the taste in front of you without other plates getting cold. You may want to order a bread basket if you don't want an empty table, even for a few minutes. The other advantage is you can use the bread to get every last drop of flavor off the plate! </p>
-	</div>
-	<div class="contactBox">
-		<h1 id="contact">CONTACT US</h1>
-		<p> <b>Co-Founders</b> : SHREYAN GUPTA <b>|</b> JEREMY TORRES </br> <b>E-Mail ID</b> : sg3778@drexel.edu <b>|</b> jgt49@drexel.edu </br> <b>Phone Number</b> : (267) 251 - 3322 | SG <b>||</b> (570) 832 - 5437 | JT </p>
-	</div>
-	<footer>
-		<p>&copy; Copyright 2022 SGJT - This is an academic project at Drexel University by two geniuses, and NOT a real company. </p>
-	</footer>
-</body>
-
-</html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="ShreyanG & JeremyT">
+        <title> AIRFOODS ~ A Taste of Everything, Anywhere </title>
+        <link href="alpha.css" rel="stylesheet" />
+        <link rel="icon" href="https://omggamer.com/wp-content/uploads/2021/12/Everywhere-Game-Release-Date.jpg">
+        <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&amp;family=Poppins&amp;family=Questrial&amp;family=Raleway&amp;display=swap" rel="stylesheet">
+        <script src="script.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <script>
+            document.body.className = 'hidden';
+        </script>
+        <div class="navBar">
+            <a id="home" href="#contact">Contact Us</a>
+            <a href="#expectations">What To Expect</a>
+            <a href="#curation">How We Curate Our Food</a>
+            <a class="active" href="#home">About Us</a>
+            <img src="images/logo.png" alt="AIRFOODS Logo" />
+        </div>
+        <div class="bannerCS">
+            <img src="images/banner.jpg" alt="banner" />
+        </div>
+        <div class="backBox" onload="fadeIn()">
+            <b>
+                <h2>MENU HIGHLIGHTS</h2>
+            </b>
+            <div class="card" onclick="window.open('fromTheUK.html', '_blank')">
+                <b>
+                    <h1> FROM THE UK </h1>
+                </b>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_the_United_Kingdom_%283-2_aspect_ratio%29.svg" alternate="UK FLAG" />
+            </div>
+            <div class="card" onclick="window.open('fromFrance.html', '_blank')">
+                <b>
+                    <h1> FROM FRANCE </h1>
+                </b>
+                <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg" alternate="FRENCH FLAG" />
+            </div>
+            <div class="card" onclick="window.open('fromItaly.html', '_blank')">
+                <b>
+                    <h1> FROM ITALY </h1>
+                </b>
+                <img src="https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg" alternate="ITALY FLAG" />
+            </div>
+            <div class="card" onclick="window.open('fromIndia.html', '_blank')">
+                <b>
+                    <h1> FROM INDIA </h1>
+                </b>
+                <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" alternate="INDIA FLAG" />
+            </div>
+            <div class="card" onclick="window.open('fromAfrica.html', '_blank')">
+                <b>
+                    <h1> FROM AFRICA </h1>
+                </b>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg" alternate="AFRICA FLAG" />
+            </div>
+            <div class="card" onclick="window.open('fromChina.html', '_blank')">
+                <b>
+                    <h1>FROM CHINA </h1>
+                </b>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg" alternate="CHINA FLAG" />
+            </div>
+        </div>
+        <div class="reccBox">
+            <div class="specialRecc">
+                <script>
+                    printImage();
+                </script>
+                <h2>
+                    <script>
+                        writeRandomText();
+                    </script>
+                </h2>
+            </div>
+            <h3> DISH OF THE DAY </h3>
+        </div>
+        <div class=" curateBox">
+            <h1 id="curation">HOW WE CURATE OUR FOOD</h1>
+            <p> Each selection of plates from a specific region can be ordered as a flight to give you a general taste of the region as determined by the foods the locals eat often or for celebrations. The Chef may also propose named flights that take you on a world tour of a specific ingredient or cooking method. For example, slow cooked beans are found in many parts of the world, and a flight may highlight how different cultures have treated this basic ingredient and cooking method. Similarly, wrapping a minced filling in dough is a common thread among Samosas, Dim Sums, Raviolis, Gyozas, Empanadas and Pasties. Feel free to find a thread among the small plate offerings and pull together your own flight! </p>
+        </div>
+        <div class="expectBox">
+            <h1 id="expectations">WHAT TO EXPECT</h1>
+            <p> A liesurely paced dinner with your partner or group! Our seats are deep and comfortable, our lighting low and augmented with fireplaces and candles. Traveling the world culinarily should not be rushed. We are a bring your own bottle establishment, so start off by giving us your bottles and we will chill and serve accordingly. Our dishes can be ordered individually and gradually over the course of your evening or you can order from the curated flights. When ordering flights the plates will not come out all at one time. We want you to be able to enjoy the taste in front of you without other plates getting cold. You may want to order a bread basket if you don't want an empty table, even for a few minutes. The other advantage is you can use the bread to get every last drop of flavor off the plate! </p>
+        </div>
+        <div class="contactBox">
+            <h1 id="contact">CONTACT US</h1>
+            <p>
+                <b>Co-Founders</b> : SHREYAN GUPTA <b>|</b> JEREMY TORRES <br>
+                <b>E-Mail ID</b> : sg3778@drexel.edu <b>|</b> jgt49@drexel.edu <br>
+                <b>Phone Number</b> : (267) 251 - 3322 | SG <b>||</b> (570) 832 - 5437 | JT
+            </p>
+        </div>
+        <footer>
+            <p>&copy; Copyright 2022 SGJT - This is an academic project at Drexel University by two geniuses, and NOT a real company. </p>
+        </footer>
+    </body>
