@@ -2,6 +2,7 @@ body, html {
     height: 196.4%;
     width: 100%;
     zoom: 95%;
+    scroll-behavior: smooth;
 }
 body {
     overflow-x: hidden;
@@ -12,7 +13,7 @@ body {
 .navBar {
     background-color: whitesmoke;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 1.1vw;
     margin-left: 13px;
     margin-right: 28px;
     box-shadow: 0px 0px 3px 3px #e88932;
@@ -51,7 +52,7 @@ body {
     background-size: cover;
     margin-left: 9px;
     margin-top: 10px;
-    border-radius: 20px;
+    border-radius: 1.1vw;
     width: 98%;
     box-shadow: 0px 0px 3px 3px #e88932;
 }
@@ -60,10 +61,10 @@ body {
     position: absolute;
     margin-left: 10px;
     margin-top: 7px;
-    margin-bottom: 20px;
+    margin-bottom: 1.1vw;
     height: 1150px;
     width: 98%;
-    border-radius: 20px;
+    border-radius: 1.1vw;
     background-position: cover;
     background-repeat: no-repeat;
     box-shadow: 0px 0px 5px 4px #e88932;
@@ -83,14 +84,15 @@ body {
     left: 255px;
     margin: 15px;
     float: left;
-    width: 330px;
+    width: 20vw;
+    aspect-ratio: 5 / 2;
     top: -50px;
     border-radius: 10px;
     position: relative;
     background-color: #fafafa;
     border: 1px solid grey;
     margin-top: 75px;
-    margin-left: 20px;
+    margin-left: 1.1vw;
     margin-right: 100px;
 }
 .card:hover {
@@ -101,7 +103,7 @@ body {
 .card img {
     float: center;
     height: 200px;
-    border-radius: 20px;
+    border-radius: 1.1vw;
     padding: 15px;
 }
 .card h1 {
@@ -117,7 +119,7 @@ body {
 }
 .reccBox {
     position: relative;
-    border-radius: 20px;
+    border-radius: 1.1vw;
     margin-left: 10px;
     margin-top: 1171px;
     width: 98%;
@@ -142,12 +144,12 @@ body {
     left: 1160px;
     width: 425px;
     border: 3px solid #e88932;
-    border-radius: 20px;
+    border-radius: 1.1vw;
 }
 .specialRecc:hover {
     background-color: #fafafa;
     border: 3px solid #e88932;
-    border-radius: 20px;
+    border-radius: 1.1vw;
     box-shadow: 0px 0px 3px 1px #e88932;
 }
 .specialRecc img {
@@ -159,7 +161,7 @@ body {
 }
 .specialRecc h2 {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 1.1vw;
     text-align: center;
     margin-top: -3px;
 }
@@ -170,12 +172,12 @@ body {
 }
 .reccBox img {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 1.1vw;
     text-align: center;
 }
 .reccBox h4 {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 1.1vw;
     text-align: center;
     margin-left: 55%;
 }
@@ -188,7 +190,7 @@ body {
 }
 .curateBox {
     position: relative;
-    border-radius: 20px;
+    border-radius: 1.1vw;
     margin-left: 10px;
     margin-top: -44px;
     width: 98%;
@@ -219,7 +221,7 @@ body {
 }
 .expectBox {
     position: relative;
-    border-radius: 20px;
+    border-radius: 1.1vw;
     margin-left: 10px;
     margin-top: -46px;
     width: 98%;
@@ -250,7 +252,7 @@ body {
 }
 .contactBox {
     position: relative;
-    border-radius: 20px;
+    border-radius: 1.1vw;
     margin-left: 10px;
     margin-top: -46px;
     width: 98%;
@@ -281,7 +283,7 @@ body {
 }
 footer {
     position: relative;
-    border-radius: 20px;
+    border-radius: 1.1vw;
     margin-left: 10px;
     width: 98%;
     height: auto;
@@ -307,10 +309,10 @@ footer p {
 *
 ***************************************************************************************/
 
-.hidden {
+/* .hidden {
     opacity: 0;
 }
 .visible {
     opacity: 1;
     transition: opacity 3s ease-out;
-}
+} */
