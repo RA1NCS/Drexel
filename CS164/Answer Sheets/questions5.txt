@@ -1,0 +1,173 @@
+SHREYAN GUPTA
+sg3778
+LAB 066
+
+
+QUESTION 1:
+
+The TAC (Opcode '3') instruction is the only conditional branch instruction, which allows us to test for negative numbers.
+
+
+QUESTION 2: 
+
+1) 04
+2) INP (Opcode '0')
+3) I will use CLA (Opcode '1') to clear the current value of the accumulator and then store the contents of the memory 
+   address 04 in the accumulator for testing with TAC.
+4) I will use TAC (Opcode '3') to test the number. If the number is negative, I will use HRS (Opcode '9') to stop the program entirely, 
+   and otherwise, if it is positive, I will use JMP (Opcode '8') to go back to the start of the program.
+
+
+QUESTION 3:
+
+x	DATA 000
+
+start		INP x
+		CLA x
+		TAC x	 	stop
+		JMP 		start
+stop		HRS
+
+
+QUESTION 4:
+
+04	000
+
+10	004
+11	104
+12	314
+13	810
+14	900
+
+
+QUESTION 5:
+
+The program iterated through the first two numbers (005 and 010) correctly, and then went onto
+the negative numbers, and the program reset after reading in the negative numbers. No errors.
+
+
+QUESTION 6:
+
+a	DATA 001
+x	DATA 000
+y	DATA 000
+
+start	INP x
+	CLA x
+	TAC x	
+	JMP pos
+	JMP neg
+pos	CLA y
+	ADD x
+	STO y
+	JMP start
+neg	OUT y
+	JMP start
+	
+
+QUESTION 7:
+
+00	001
+04	000
+05	000
+
+10	004
+11	104
+12	314
+13	820
+14	810
+
+20	105
+21	200
+22	605
+23	810
+
+30	505
+31	810
+
+
+QEUSTION 8:
+
+My program output 002 as expected. No errors.
+
+
+QUESTION 9:
+
+a	DATA 001
+x	DATA 000
+y	DATA 000
+z	DATA 000
+
+start	INP x
+	CLA x
+	TAC x
+	JMP pos
+	JMP neg
+pos	CLA y
+	ADD a
+	STO y
+	CLA x
+	ADD z
+	STO z
+	JMP start
+neg	OUT x
+	OUT y
+	JMP start
+
+
+QUESTION 10:
+
+00	001
+04	000
+05	000
+06	000
+
+10	004
+11	104
+12	314
+13	820
+14	830
+
+20	105
+21	200
+22	605
+23	104
+24	206
+25	606
+26	810
+
+30	505
+31	506
+32	810
+
+
+QUESTION 11:
+
+I got the right answers from the original inputs (005, 010, -001):
+
+Output:
+002
+015
+
+Here are my second set of inputs:
+-004
+008
+003
+-009
+-020
+069
+-048
+
+I got the correct outputs again:
+
+Output:
+000
+000
+002
+011
+002
+011
+003
+080
+
+I have no group members, so nothing to compare :)

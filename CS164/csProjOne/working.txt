@@ -1,0 +1,85 @@
+ORDER BARCODE BUTTON doOrder {
+    CHECK STATE
+
+    STATE = 0? {
+        NEW STATE = 1
+        BULB_GREEN
+    }
+
+    STATE = 1? {
+        NEW STATE = 0
+        BULB_GREEN
+    }
+
+    STATE = 2? {
+        NEW STATE = 0
+        BULB_RED
+    }
+}
+
+PACKAGE BARCODE BUTTON {
+    CHECK STATE
+
+    STATE = 0? {
+        NEW STATE = 0
+        BULB_RED
+    }
+
+    STATE = 1? {
+        NEW STATE = 2
+        BULB_GREEN
+    }
+
+    STATE = 2? {
+        NEW STATE = 1
+        BULB_RED
+    }
+}
+
+WEIGHT BUTTON {
+    CHECK STATE
+
+    STATE = 0? {
+        NEW STATE = 0
+        BULB_RED
+    }
+
+    STATE = 1? {
+        NEW STATE = 1
+        BULB_RED
+    }
+
+    STATE = 2? {
+        NEW STATE = 1
+        BULB_GREEN
+    }
+}
+
+BULB_RED {
+    CHANGE JSON  
+}
+
+BUTTON STYLING {
+    GET BUTTON ID (but<num>) // TRY 0 AND 1 TO SEE WHICH IS FIRST
+}
+
+ORDER BUTTON (doOrder, "Scan Order Barcode")
+PACKAGE BUTTON (doOrder, "Scan Package Barcode")
+WEIGHT BUTTON (doOrder, "Weigh Item")
+
+bulbImg : makeimg()
+reset_bulb()
+
+RED BULB : do_red() {
+    setImg(.bumbImg, "bulbRed.png")
+    timer(750, reset_bulb)
+}
+
+GREEN BULB : do_green() {
+    setImg(.bumbImg, "bulbRed.png")
+    timer(750, reset_bulb)
+}
+
+RESET BULB : reset_bulb() {
+    setImg(.bumbImg, "bulbOff.png")
+}

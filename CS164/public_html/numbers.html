@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>LAB 3</title>
+		<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Lexend+Mega&family=Poppins&family=Questrial&family=Raleway&display=swap" rel="stylesheet" />
+	</head>
+
+	<style>
+		h1 {
+			font-family: 'Lexend Mega';
+			position: relative;
+			font-size: 60px;
+			text-align: center;
+			text-shadow: 0px 0px 25px white;
+			color: white;
+			text-shadow: 0px 0px 10px rgb(89, 132, 146);
+			letter-spacing: 10px;
+			margin-top: 75px;
+		}
+		html,
+		body {
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			zoom: 95%;
+			background-image: url('https://wallpaperaccess.com/full/2821667.jpg');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+		}
+
+		.tableAlpha {
+			zoom: 120%;
+			border: 1px solid black;
+			position: relative;
+			align-items: center;
+			margin-left: 10%;
+			margin-right: auto;
+			margin-top: 3%;
+			border-radius: 20px;
+			padding: 3px;
+			background-color: whitesmoke;
+			background-image: linear-gradient(white, white, lightblue, lightblue, lightblue, lightblue, rgb(182, 248, 255), rgb(182, 248, 255), rgb(182, 248, 255));
+		}
+
+		.tableAlpha th {
+			border: 1px solid black;
+			padding: 10px;
+			text-align: center;
+			font-family: 'Questrial';
+			font-feature-settings: 'tnum';
+			border-top-left-radius: 15px;
+			border-top-right-radius: 15px;
+		}
+
+		.tableAlpha td {
+			border: 1px solid black;
+			padding: 5px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			text-align: center;
+			font-family: 'monospace';
+			font-feature-settings: 'tnum';
+		}
+
+		.tableAlpha tbody tr:nth-child(17) td:nth-child(1) {
+			border-bottom-left-radius: 15px;
+		}
+
+		.tableAlpha tbody tr:nth-child(17) td:nth-child(4) {
+			border-bottom-right-radius: 15px;
+		}
+
+		.tableBravo {
+			zoom: 120%;
+			border: 1px solid black;
+			position: absolute;
+			align-items: center;
+			border-radius: 20px;
+			margin-left: 740px;
+			top: 307px;
+			padding: 3px;
+			background-color: white;
+			background-image: linear-gradient(white, white, lightblue, lightblue, lightblue, lightblue, rgb(182, 248, 255), rgb(182, 248, 255), rgb(182, 248, 255));
+		}
+
+		.tableBravo th {
+			border: 1px solid black;
+			padding: 10px;
+			text-align: center;
+			font-family: 'Questrial';
+			border-top-left-radius: 15px;
+			border-top-right-radius: 15px;
+		}
+
+		.tableBravo td {
+			border: 1px solid black;
+			padding: 5px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			text-align: center;
+			font-family: 'Poppins';
+		}
+
+		.tableBravo tr:hover {
+			box-shadow: 0px 0px 10px 5px white;
+		}
+
+		.tableBravo tbody tr:nth-child(8) td:nth-child(1) {
+			border-bottom-left-radius: 15px;
+		}
+
+		.tableBravo tbody tr:nth-child(8) td:nth-child(5) {
+			border-bottom-right-radius: 15px;
+		}
+	</style>
+
+	<body>
+		<h1>SHREYAN GUPTA</h1>
+		<table class="tableAlpha">
+			<tr>
+				<th>BASE 10</th>
+				<th>BASE 2</th>
+				<th>BASE 4</th>
+				<th>BASE 16</th>
+			</tr>
+			<tr>
+				<td>00</td>
+				<td>0000</td>
+				<td>00</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td>01</td>
+				<td>0001</td>
+				<td>01</td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>02</td>
+				<td>0010</td>
+				<td>02</td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>03</td>
+				<td>0011</td>
+				<td>03</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>04</td>
+				<td>0100</td>
+				<td>10</td>
+				<td>4</td>
+			</tr>
+			<tr>
+				<td>05</td>
+				<td>0101</td>
+				<td>11</td>
+				<td>5</td>
+			</tr>
+			<tr>
+				<td>06</td>
+				<td>0110</td>
+				<td>12</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<td>07</td>
+				<td>0111</td>
+				<td>13</td>
+				<td>7</td>
+			</tr>
+			<tr>
+				<td>08</td>
+				<td>1000</td>
+				<td>20</td>
+				<td>8</td>
+			</tr>
+			<tr>
+				<td>09</td>
+				<td>1001</td>
+				<td>21</td>
+				<td>9</td>
+			</tr>
+			<tr>
+				<td>10</td>
+				<td>1010</td>
+				<td>22</td>
+				<td>A</td>
+			</tr>
+			<tr>
+				<td>11</td>
+				<td>1011</td>
+				<td>23</td>
+				<td>B</td>
+			</tr>
+			<tr>
+				<td>12</td>
+				<td>1100</td>
+				<td>30</td>
+				<td>C</td>
+			</tr>
+			<tr>
+				<td>13</td>
+				<td>1101</td>
+				<td>31</td>
+				<td>D</td>
+			</tr>
+			<tr>
+				<td>14</td>
+				<td>1110</td>
+				<td>32</td>
+				<td>E</td>
+			</tr>
+			<tr>
+				<td>15</td>
+				<td>1111</td>
+				<td>33</td>
+				<td>F</td>
+			</tr>
+		</table>
+
+		<table class="tableBravo">
+			<tr>
+				<th>| COLOR |</th>
+				<th>UNSIGNED</th>
+				<th>SIGN MAG</th>
+				<th>1'S COMP</th>
+				<th>2'S COMP</th>
+			</tr>
+			<tr>
+				<td bgcolor="#0000FF">BLUE</td>
+				<td bgcolor="#0000FF">#0000FF</td>
+				<td bgcolor="#80807F">#80807F</td>
+				<td bgcolor="#FFFF00">#FFFF00</td>
+				<td bgcolor="#000001">#000001</td>
+			</tr>
+			<tr>
+				<td bgcolor="#00FF00">GREEN</td>
+				<td bgcolor="#00FF00">#00FF00</td>
+				<td bgcolor="#807F80">#807F80</td>
+				<td bgcolor="#FF00FF">#FF00FF</td>
+				<td bgcolor="#000100">#000100</td>
+			</tr>
+			<tr>
+				<td bgcolor="#FFD801">RUBBER DUCKY YELLOW</td>
+				<td bgcolor="#FFD801">#FFD801</td>
+				<td bgcolor="#7F5881">#7F5881</td>
+				<td bgcolor="#0027FE">#0027FE</td>
+				<td bgcolor="#0128FF">#0128FF</td>
+			</tr>
+			<tr>
+				<td bgcolor="#DF73FF">HELIOTROPE PURPLE</td>
+				<td bgcolor="#DF73FF">#DF73FF</td>
+				<td bgcolor="#5FF37F">#5FF37F</td>
+				<td bgcolor="#208C00">#208C00</td>
+				<td bgcolor="#218D01">#218D01</td>
+			</tr>
+			<tr>
+				<td bgcolor="#E33190">DIMORPHOTHECA MAGENTA</td>
+				<td bgcolor="#E33190">#E33190</td>
+				<td bgcolor="#63B11D">#63B11D</td>
+				<td bgcolor="#1CCE62">#1CCE62</td>
+				<td bgcolor="#1DCF63">#1DCF63</td>
+			</tr>
+			<tr>
+				<td bgcolor="#C0C0C0">SILVER</td>
+				<td bgcolor="#C0C0C0">#C0C0C0</td>
+				<td bgcolor="#404040">#404040</td>
+				<td bgcolor="#3F3F3F">#3F3F3F</td>
+				<td bgcolor="#404040">#404040</td>
+			</tr>
+			<tr>
+				<td bgcolor="#FFD700">GOLD</td>
+				<td bgcolor="#FFD700">#FFD700</td>
+				<td bgcolor="#7F5780">#7F5780</td>
+				<td bgcolor="#0028FF">#0028FF</td>
+				<td bgcolor="#012900">#012900</td>
+			</tr>
+		</table>
+	</body>
+</html>

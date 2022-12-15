@@ -1,0 +1,55 @@
+body {
+	font-family: 'Montserrat';
+	font-weight: 400;
+	text-align: center;
+	margin-top: 13%;
+	background-color: #cff5e7;
+}
+
+/* Button Styling */
+
+button {
+	width: 10%;
+	aspect-ratio: 6;
+	font-family: 'Montserrat';
+	background-color: #17a2b8;
+	margin: 5rem 2rem;
+	border: none;
+	color: #fff;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	border-radius: 0.25rem;
+}
+
+/* Button Programming */
+
+button:hover {
+	background-color: #138496;
+}
+button:active {
+	background-color: #117a8b;
+}
+
+.animate {
+	animation-name: borderPop;
+	animation-duration: 0.25s;
+}
+
+@keyframes borderPop {
+	0% {
+		box-shadow: 0;
+	}
+	50% {
+		box-shadow: 0 0 0 0.2rem rgb(23 162 184 / 50%);
+	}
+	100% {
+		box-shadow: 0;
+	}
+}
+
+/* Bulb Programming */
+
+img {
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}

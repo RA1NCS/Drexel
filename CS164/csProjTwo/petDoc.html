@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800;900&Gemunu+Libre&family=Lexend+Mega&family=Poppins&family=Questrial&family=Raleway&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="petDoc.css" />
+		<title>Documentation | VMoji</title>
+	</head>
+	<body>
+		<div class="heading">
+			<h1><span id="headtxt1">VMoji</span> | <span id="headtxt2">Documentation</span></h1>
+			<h2>By Shreyan Gupta</h2>
+		</div>
+
+		<hr />
+
+		<div class="container">
+			<div class="left outline">
+				<div class="card">
+					<img src="petPics/0.png" />
+					<h3>Dead</h3>
+					<h4>State 0</h4>
+				</div>
+				<div class="card">
+					<img src="petPics/1.png" />
+					<h3>Crying</h3>
+					<h4>State 1</h4>
+				</div>
+				<div class="card">
+					<img src="petPics/2.png" />
+					<h3>Sad</h3>
+					<h4>State 2</h4>
+				</div>
+				<div class="card">
+					<img src="petPics/3.png" />
+					<h3>Satisfied</h3>
+					<h4>State 3</h4>
+				</div>
+				<div class="card">
+					<img src="petPics/4.png" />
+					<h3>Smiling</h3>
+					<h4>State 4</h4>
+				</div>
+				<div class="card">
+					<img src="petPics/5.png" />
+					<h3>Happy</h3>
+					<h4>State 5</h4>
+				</div>
+			</div>
+
+			<div class="right outline">
+				<p>Born in the depths of the second CS 164 project, this is the one of the loyal partners can ever have, one that would NEVER betray you. He is very loyal, but is also very frail. Mere 10 seconds of not interacting with him are enough to make his state of mind go to <span style="color: #643f2c">shit</span>, quite literally. A total of 50 seconds of inactivity from his birth is enough of kill him, and you wouldn't want to be a killer, would you? Also, no matter how happy he is, one slap, and he'll turn sad. So, are you worthy enough of keeping him as a pet, despite him being more demanding than a girlfriend, and not letting him die?</p>
+			</div>
+		</div>
+
+		<hr />
+
+		<div class="outline">
+			<div class="container2">
+				<h1 class="outline" id="thead">Finite State Machine</h1>
+				<table class="fsm">
+					<thead>
+						<tr>
+							<td class="theading"></td>
+							<td class="theading">0</td>
+							<td class="theading">1</td>
+							<td class="theading">2</td>
+							<td class="theading">3</td>
+							<td class="theading">4</td>
+							<td class="theading">5</td>
+						</tr>
+					</thead>
+					<tr>
+						<td class="theading">Play</td>
+						<td>0</td>
+						<td>3</td>
+						<td>4</td>
+						<td>5</td>
+						<td>5</td>
+						<td>5</td>
+					</tr>
+					<tr>
+						<td class="theading">Slap</td>
+						<td>0</td>
+						<td>0</td>
+						<td>0</td>
+						<td>1</td>
+						<td>2</td>
+						<td>2</td>
+					</tr>
+					<tr>
+						<td class="theading">Feed</td>
+						<td>0</td>
+						<td>2</td>
+						<td>3</td>
+						<td>4</td>
+						<td>5</td>
+						<td>5</td>
+					</tr>
+					<tr>
+						<td class="theading">Kill</td>
+						<td>0</td>
+						<td>0</td>
+						<td>0</td>
+						<td>0</td>
+						<td>0</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<td class="theading">Revive</td>
+						<td>3</td>
+						<td>X</td>
+						<td>X</td>
+						<td>X</td>
+						<td>X</td>
+						<td>X</td>
+					</tr>
+				</table>
+			</div>
+			<div class="outline" id="descbox">
+				<h2>This project is essentially about a virtual emoji, and there are six states it has. Namely, Dead, Crying, Sad, Satisfied, Smiling, and Happy. There are five interactions, play, slap, feed, kill, and revive. 'Play' increases the current state by 2, 'Slap' decreases it by 2, and 'Feed' increases it by 1. 'Kill' changes any state to 0 (Dead), and 'Revive' works only when the state is at to 0 (Dead), and changes it to 3 (Satisfied). There are a few exceptions however. For example, if you slap the pet, even if it's state is set to happy, it won't even be satisfied after the slap because you know, slaps hurt. Also, the state of the pet decreases every 10 seconds, which means that the maximum time it takes for the pet to die is 50 seconds.</h2>
+			</div>
+		</div>
+	</body>
+</html>

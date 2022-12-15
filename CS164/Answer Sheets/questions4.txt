@@ -1,0 +1,175 @@
+SHREYAN GUPTA
+sg3778
+LAB 066
+
+
+QUESTION 1:
+
++	: OR
+·	: AND
+⊕	: XOR
+'	: NOT
+-+	: NOR
+-·	: NAND
+-⊕	: XNOR
+
+
+QUESTION 2:
+
+PART A:
+
+	AND COMPLEMENT IDENTITY
+
+       A   |   A'   | A · A' 
+    -------+--------+-------
+       0   |   1    |   0
+       1   |   0    |   0
+
+	OR COMPLEMENT IDENTITY
+
+       A   |   A'   | A + A' 
+    -------+--------+-------
+       0   |   1    |   1
+       1   |   0    |   1
+
+PART B: 
+
+Answer : X + Y
+
+Explanation: Using the DISTRIBUTIVE and COMPLEMENT laws, I first added the two Ys, which gave a result of 1. 
+After simplifying, I used the DISTRIBUTIVE and COMPLEMENT laws again to bring the two Xs together and added them to get another 1, 
+which when multiplied with X + Y gives the same expression.
+
+Proof of working: https://i.imgur.com/qz5AExD.png
+
+To check if the same is correct, I solved the question using the DISTRIBUTIVE laws again, but by adding the 
+two Xs this time, then further simplifying it to get the same answer.
+
+Proof of Working: https://i.imgur.com/r3qwH6T.png
+
+
+QUESTION 3:
+
+       X   |   Y   | X > Y 
+    -------+-------+---------
+       0   |   0   |   0      
+       0   |   1   |   0   
+       1   |   0   |   1   
+       1   |   1   |   0     
+
+Resulting Boolean Expression : X · Y'
+				     	 CAN'T BE SIMPLIFIED.
+
+
+QUESTION 4:
+
+csPictureOne.png
+
+
+QUESTION 5:
+
+       X0   |   X1   |   Y0   |   Y1   |  X > Y 
+    --------+--------+--------+--------+---------
+        0   |    0   |    0   |    0   |    0   
+        0   |    0   |    0   |    1   |    0   
+        0   |    0   |    1   |    0   |    0   
+        0   |    0   |    1   |    1   |    0   
+        0   |    1   |    0   |    0   |    1   
+        0   |    1   |    0   |    1   |    0   
+        0   |    1   |    1   |    0   |    0   
+        0   |    1   |    1   |    1   |    0   
+        1   |    0   |    0   |    0   |    1   
+        1   |    0   |    0   |    1   |    1   
+        1   |    0   |    1   |    0   |    0   
+        1   |    0   |    1   |    1   |    0   
+        1   |    1   |    0   |    0   |    1   
+        1   |    1   |    0   |    1   |    1   
+        1   |    1   |    1   |    0   |    1   
+        1   |    1   |    1   |    1   |    0   	
+
+Resulting Boolean Expression: X0' · X1 · Y0' · Y1'    +    X0 · X1' · Y0' · Y0'    +    X0 · X1' · Y0' · Y1    +    X0 · X1 · Y0' · Y1'    +    X0 · X1 · Y0' · Y1    +    X0 · X1 · Y0 · Y1'
+Simplified: X1 · Y0' · Y1'    +    X0 · Y0'    +    X0 · X1 · Y1'
+Further Simplified: X1 · Y0 -+ Y1    +    X0 · Y0'    +    X0 · X1 · Y1'r
+Word Simplified: [ X1 AND (Y0 NOR Y1)    OR    X0 AND (NOT Y0) ]    OR    [ (X0 AND X1) AND (NOT Y1) ]
+
+
+QUESTION 6:
+
+My logic circuit works.
+
+
+QUESTION 7:
+
+PART A:
+FALSE
+
+PART B:
+
+While looking at both numbers, start from the left. Your goal is to essentially find the first position where 
+one number has a zero, and the other one has a 1. 
+
+Let's start with a smaller example: 
+1011 0110   >   1010 0110
+Over here, the first 3 digits are the same, which means that the number is the same up to that point. However,
+After that, the number on the left side is 1, and the number on the right side is 0. Because of the same, the
+expression on the left is bigger than the expression on the right, making the comaparison to be true.
+
+Going back to the question, the first 6 digits for both the numbers are the same, being 110010, so the 2 numbers
+are equal up to that point. Then, you'll notice that on  the left side, the following numbers are 10, and on the
+right side, the following numbers are 11. Since the  number 11 is bigger than 10, the right side is naturally
+bigger, making the number on the right bigger than the number on the left, hence making the comparison false.
+
+
+QUESTION 8:
+
+       X   |   Y   | X > Y | X = Y 
+    -------+-------+-------+--------
+       0   |   0   |   0   |   1
+       0   |   1   |   0   |   0
+       1   |   0   |   1   |   0
+       1   |   1   |   0   |   1
+
+Boolean Expression for X > Y : X · Y'
+Boolean Expression for X = Y : X -⊕ Y
+
+
+QUESTION 9:
+
+csPictureTwo.png
+
+
+QUESTION 10:
+
+       g   |   e   |   Gr  |   G   
+    -------+-------+-------+--------
+       0   |   0   |   0   |   0
+       0   |   0   |   1   |   0
+       0   |   1   |   0   |   0
+       0   |   1   |   1   |   1
+       1   |   0   |   0   |   1
+       1   |   0   |   1   |   1
+
+Resulting Boolean Expression: g' · e · Gr    +    g · e' · Gr'    +    g · e' · Gr
+Simplified: g' · e · Gr    +    g · e' ( Gr' + Gr )
+Further Simplfied: g' · e · Gr    +    g · e'
+Final Simplfiied: g   +   e · Gr 
+
+Name of Picture: csPictureThree.png
+
+
+QUESTION 11:
+
+https://www.cs.drexel.edu/~sg3778/compare.html
+https://www.cs.drexel.edu/~sg3778/
+
+
+EXTRA CREDIT 1:
+
+Firstly, both the things, the removal of the toolbar and the resizing of the workspace is to be done
+by editing the JSON data copied after CTRL + Clicking the virtual data. 
+
+In the JSON section of the compare.html file, I basically changed the value of the variable 
+'showToolbox', which was set to true, to false. This removed the toolbar.
+
+Then, to resize the workspace, increasing the value of the 'width' and the 'height' variables is what
+what worked, so I changed the 'width' to 700, and the 'height' to 480.

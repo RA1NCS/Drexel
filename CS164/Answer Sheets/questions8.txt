@@ -1,0 +1,184 @@
+SHREYAN GUPTA
+sg3778
+LAB 066
+
+
+QUESTION 1:
+
+dx stands for the distance-x, which is difference between the x coordinates of point 0 and 1.
+dy stands for the distance-y, which is difference between the y coordinates of point 0 and 1.
+
+
+QUESTION 2:
+
+the for loop iterating through each pixel and the function 'plot(x,y)' together display each pixel throughout the line.
+
+
+QUESTION 3:
+
+A color string may take on RGB values, Hexadecimal values, or Color names.
+
+
+QUESTION 4:
+
+man button
+
+
+QUESTION 5:
+
+a) The function puts() prints out a string and a new line.
+b) 0.0
+c) NaN
+
+
+QUESTION 6:
+
+I input the following values:
+
+x0 : 0
+y0 : 0
+x1 : 8
+y1 : 8
+
+This resulted in a new webpage being printed, with the (x0, y0) coordinates colored green, and the (x1, y1) coordinates colored in red.
+
+
+QUESTION 7:
+
+Modified the function successfully.
+
+
+QUESTION 8:
+
+Expected output:
+5         
+4         
+3       * *
+2   * *    
+1         
+  1 2 3 4 5
+
+
+Actual output:
+5         
+4         
+3       * *
+2   * *    
+1         
+  1 2 3 4 5
+
+Yes, my program correctly output the line.
+
+
+QUESTION 9:
+
+Expected output:
+
+5         *
+4        *  
+3      * 
+2    *
+1  *
+*  1   2   3
+
+Actual output:
+
+5     *   
+4         
+3     *  
+2   *     
+1 *       
+* 1 2 3 4 5
+
+No, my program did not completely draw the line. This is because the value of the dy is bigger than dx, which means that there is a greater vertical change than a horizontal change, leading to a slope
+which is greater than 1. Since the program and algorithm works perfectly only for greater horizontal changes, the algorithm is unable to trace the boxes with a greater vertical change.
+
+
+QUESTION 10:
+
+1) (1,2) (6,3)
+
+	Output:
+
+	5     
+	4         
+	3       * * * 
+	2 * * *     
+	1        
+	  1 2 3 4 5 6
+
+2) (2,1) (5,3)
+
+	Output:
+
+	5     
+	4         
+	3         * 
+	2     * *
+	1   *    
+	  1 2 3 4 5 6
+
+3) (2,3) (9,5)
+
+	Output:
+
+	6
+	5               * *
+	4       * * * *
+	3   * *
+	2     
+	1       
+	  1 2 3 4 5 6 7 8 9 10
+
+
+EXTRA CREDIT:
+
+Basically, the current issue in the algorithm is that is works for slopes less than 1. This is because the whole algorithm loops till the current 'x' is equal to the 'x1' input by the user. The issue with 
+this is that the program stops when the x value is reached, so the remainder of y values won't be traversed through.
+
+To fix this, when the x distance is greater than the y distance, the original algorithm can be executed. However, if the y distance is greater than the x distance, meaning that the slope is greater than 1,
+then the exact reverse of the algorithm will take place, and all the calculations performed on x will be done on y instead, and likewise.
+
+We can also extend this functionality to cover all four quadrants of the graph, but due to the predefined axis, I'm not personally doing it in the program.
+
+Tests Done:
+
+1) (0,0) (3,5)
+
+	Output:
+
+	5     *
+	4   *      
+	3   *    
+	2 *   
+	1 *    
+	* 1 2 3 4 5 6
+
+2) (0,1) (9,7)
+
+	Output:
+
+	7		      *
+	6             * *
+	5    	      *
+	4       * *  
+	3     *   
+	2 * *  
+	*    
+	  1 2 3 4 5 6 7 8 9
+
+3) (2,2) (7,6)
+
+	Output:
+
+      6             *
+	5           *
+	4       * *  
+	3     *  
+	2   * 
+	1     
+	  1 2 3 4 5 6 7 8
+
+
+
+WEBSITE LINK : https://www.cs.drexel.edu/~sg3778/lab8.html

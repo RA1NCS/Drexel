@@ -1,0 +1,124 @@
+QUESTION 1:
+
+ME:
+Shreyan Gupta
+he/him
+sg3778@drexel.edu
+
+PARTNER ALPHA:
+Samyak Dubey
+he/him
+sd3624@drexel.edu
+He's actually a pretty nice guy, studious yet fun to be with.
+
+PARTNER BRAVO:
+Uddhav Jain
+he/him
+uh29@drexel.edu
+This person is serious in life, relies on discipline instead of motivation, pretty inspiring.
+
+
+
+
+QUESTION 2: 
+
+TA ALPHA:
+Joe DeMarie
+he/him
+jd3676@drexel.edu
+Office Hours: Monday 2pm - 4pm, Tuesday 4pm - 6pm
+
+TA BRAVO:
+Omesh Dhar Dwivedi
+he/him
+odd23@drexel.edu
+Office Hours: Wednesday 10am - 12pm, Friday 10am - 12pm
+
+TA CHARLIE:
+Eric Skylar
+he/him
+ejs373@drexel.edu
+Office Hours: Wednesday 4pm - 6pm
+
+
+
+QUESTION 3:
+- BBL is GUI-Based, and TUX is CLI-Based
+- No buttons or drop down menus in TUX, unlike BlackBoard Learn
+
+
+
+QUESTION 4:
+SSH COMMAND TO GET INTO TUX SERVER: ssh sg3778@tux.cs.drexel.edu
+
+LOGGED INTO: tux5
+
+UPTIME: 11:35:49 up 14 days, 10 min, 30 users,  load average: 0.11, 0.12, 0.11
+
+
+
+QUESTION 5:
+"Dr. Stuart is an old man"
+
+
+
+QUESTION 6: 
+drwxrwxr-x 2 sg3778 sg3778 0 Sep 22 11:54 public_html
+
+
+
+QUESTION 7: 
+No Problems
+
+
+
+QUESTION 8:
+I'd say arrow keys? Use arrow keys to navigate to the string of text you want to change, and change it I guess?
+
+
+
+QUESTION 9:
+Does the text Lab 1 appear in the title bar of the browser window?
+YES
+
+Does the document part contain your name in large bold print, your section number on the next line, and a link to the instructor's web site on the third?
+YES
+
+When you click on the underlined text, does your browser open up the CS 164 instructor page?
+YES
+
+
+
+QUESTION 10:
+C:\Windows\System32\index.html
+
+
+
+QUESTION 11:
+Honestly, it does not look like a nail to me, because I have worked with CLI-based interfaces for hosting servers on AWS for video games via PuTTY. It's a nice refresher, but it's not something completely new to me.
+
+
+
+QUESTION 12:
+https://www.cs.drexel.edu/~sg3778/
+
+
+
+QUESTION 13:
+DONE, DISCORD TAG: demoN#1337
+
+
+
+QUESTION 14:
+I loved the session way too much to actually give something to improve upon :)
+
+
+
+DELAYED EXTRA CREDIT:
+Okay so honestly, I do NOT know much about compilers compiling in their own language, but a few months ago, I did read about bootstrapping 
+while on a call with my friend, who explained to me that it was essentially that compilers can be written in the same language that they are 
+compiling, but the issue is that, for compiling the compiler, you will have to use the compiler of another language. That is all I know about
+the topic. Coming back to the topic, I'd say that they are wrong, because languages which are written in their own languages exist, for example Java
+or C.
+
+I know that my answer is probably insufficient, but I really hope this gets me the final extra question deduction :)

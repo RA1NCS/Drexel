@@ -1,0 +1,107 @@
+SHREYAN GUPTA
+sg3778
+LAB 066
+
+LAB PARTNER :
+JAINAM KASHYAP
+jk3862
+LAB 060
+
+QUESTION 1 :
+
+p : 1009
+q : 6053
+
+
+QUESTION 2 :
+
+N = 6107477, calculated by multiplying p and q
+
+
+QUESTION 3 :
+
+K : 6100417
+
+
+QUESTION 4 :
+
+e : 5561
+d : 1097
+
+
+QUESTION 5 :
+
+Typing in the plaintext 'hello world', I can verify that the resultant message in numeric form
+(104101 108108 111032 119111 114108 100) is converted successfully to ASCII, since 'h' in ASCII is 104,
+e is 101, and so on.
+
+
+QUESTION 6 :
+
+The decryption was successful.
+
+
+QUESTION 7 :
+
+Decrypted Message:
+
+Help! In the classic literary work, "Captain Underpants and the Perilous Plot of Professor Poopypants", by Dav Pilkey, the Professor becomes enraged and forces everyone in the town to assume a new name. 
+See http://www.cs.drexel.edu/~introcs/Fa09/notes/09.2_JSArrays/PoopyPants/index.html for the Professor's rules: 
+
+
+QUESTION 8 :
+
+N : 551
+e : 101
+d : 5
+
+
+QUESTION 9 :
+
+Encrypted message given to me - 
+429 319 359 23 423 359 364 2 98 15 234 141 432 364 297 2 484 364 244 359 2 115 15 432 196 2 319 423 15 319 2 212 47 364 319 359 135 135 432 297 359 364 244 359 2 432 115 2 319 423 359 2 15 409 432 135 432 319 125 2 319 484 2 15 196 15 23 319 2 319 484 2 244 423 15 364 297 359 212 
+Decrypted Form -
+Stephen Hawking once said that "Intelligence is the ability to adapt to change"
+
+QUESTION 10 :
+
+Number of possible key sets : 45 // Since total number of prime numbers between 19 and 59 are 10, and we have to choose 2 out of them not considering the order, the answer would be 10 choose 2 = 45.
+Time it takes to get N, e, and d values : Using the RSA Calculator worksheets given to us, it will take about 2 minutes to do the entire process, for one key pair. Doing it for 45 combinations will take about 45 x 2 = 90 minutes. However, since the choice of K has a lot of options, on an average 25, traversing through each will take 90 x 25 = 2250 minutes. Obviously, since all the times used here were approximates, the actual time may vary and is unpredictable. However, it is possible to decrypt the message this way, however long it takes.
+100 Primes : Since 100 is 10 squared, the time taken would be the square of the time taken for 10 primes.
+1000 Primes : Since 1000 is 10 cubed, the time taken would be the cube of the time taken for 10 primes.
+10^n Primes : Total time taken would be time taken for 10 primes raised to the power n.
+How does the problem become more advanced : The bigger the number of combinations, the more time it will take to decrypt the message. So, the larger key used would be stronger, due to the longer decryption time required for it.
+
+
+QUESTION 11 :
+
+68ae58ab4fd5b34153f587f1a3e695936dc427e0
+
+
+QUESTION 12 :
+
+Encrypted message sent to me -
+259 423 359 2 469 359 115 115 15 297 359 2 432 115 2 115 432 469 23 135 359 2 319 423 15 319 2 319 423 359 95 359 2 432 115 2 364 484 2 469 359 115 115 15 297 359 2
+
+Decrypted message -
+The message is simple that there is no message 
+
+
+QUESTION 13 :
+
+Encrypted hash sent to me -
+297 1819 369 2173 650 2173 297 1218 2036 1218 297 1159 213 392 789 1159 650 916 916 297 793 1727 2156 1043 2036 392 392 789 1819 1218 916 1218 392 1218 392 650 2036 1218 789 1159
+
+Decrypted hash -
+39e5b534843a67cabdd3021f877c94d4747b84ca
+
+
+QUESTION 14 :
+
+SHASum output - 39e5b534843a67cabdd3021f877c94d4747b84ca
+Since both the signatures (decrypted hash and re-hashed) are the same, the signature is valid. I did not have any problems verifying the signature.
+
+
+QUESTION 15 : 
+
+I would really like to comment TA Joe DeMario, as he has been very helpful, both on Discord, and on e-mails as well, helping me understanding / correcting my concepts. I love how he responds to every e-mail or message regardless if it is a weekday or a weekend. Props to you, Joe!

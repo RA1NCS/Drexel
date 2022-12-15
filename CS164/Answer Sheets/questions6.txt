@@ -1,0 +1,84 @@
+SHREYAN GUPTA
+sg3778
+LAB 066
+
+
+
+QUESTION 1:
+
+No issues, got all answers right.
+
+
+
+QUESTION 2:
+
+I'll be using the first approach: Taking each number, dissecting it into it's digits, cubing each digit, and comparing the sum of the cubed bits with the original number.
+I took this approach because this is the first thing that came to my mind, even before I read the options given to us.
+
+Algorithm:
+
+I'll be having 4 functions.
+
+The first function will be named 'cube()', which will take a parameter x, and will return the cube of x.
+
+
+The second function will be named 'cubeSum()', which will take a parameter y. This is the function that will return the cube of each digit of the function.
+
+First, I will put the number in a loop that will basically mod the number by 10 to get the rightmost digit, then divide the number by 10 to make the
+previous bit come forward. After modding each digit, I will cube the digit, and add it's value to the current sum, which is originally 0.
+The function will return the value of the sum, which is the final value of the sum of the cube of each of the digits of the number.
+The function will end when the value of the currentNumber is 0.
+
+
+The third function will be named 'compare()', and will take the number testNum as a parameter, which is basically the number to be tested.
+I will use the previous function (cubeSum()), to get the sum of each digit of testNum, and will then compare the calculated sum with it.
+If the two values match, the function will return 1. Otherwise, it will return 0.
+
+
+The last function will be the init() function, which will run a loop with a counter that starts from 100 (since 100 is the first 3 digit number), and ends on 999 (last 3-digit number).
+The loop in this function will use the counter as the parameter for the function 'compare()', and will return a statement saying that the number fits the requirements if the
+value returned from 'compare()' is 1. Then the counter will increment, and the function will repeat.
+
+End of algorithm.
+
+
+
+QUESTION 3:
+
+n : number to be cubed
+
+cubed : cube of last digit of the current number
+sum : sum of cubed digits
+currentNum : current number to be tested
+
+cubeTest : cubed sum of original number
+
+numcount : counter of loop (original number to be tested)
+
+
+
+QUESTION 4:
+
+I got about 15 errors. 
+
+- Most were syntax errors, because I used an '=' sign instead of the colon ':' for declaration and assignment.
+- I got stuck on an error which said: 'unresolved symbol sum' This took the longest to fix, because the name 'sum' is also a variable that I used. I thought this meant that the sum I calculated in one of
+the functions had some error, but later realized that I used the variable 'sum' without declaring it.
+- I did not get any compilation errors other than these, but the program did not work, mostly because I typed the dot before a function, thinking that I will have to get the value when calling another 
+function. I fixed this by creating another tranquility file, and testing out the return of the functions there, and then fixing the issues in the main program.
+
+
+
+QUESTION 5:
+
+I think I've got my correct values.
+
+My program outputs:
+
+The number '153' meets the requirements
+The number '370' meets the requirements
+The number '371' meets the requirements
+The number '407' meets the requirements
+
+I compared the values with Mayukhi Khan (mk3942), and she got the same values as me. 
+The URL for the program is: https://www.cs.drexel.edu/~sg3778/cubes.html

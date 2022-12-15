@@ -1,0 +1,89 @@
+/* Page Setup */
+
+body {
+	background-attachment: fixed;
+	background-image: url('https://free4kwallpapers.com/uploads/originals/2020/10/17/a-cool-dark-mountain-wallpaper.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	font-family: 'Lexend Mega';
+	height: 100%;
+	letter-spacing: 10px;
+	text-align: center;
+	text-shadow: 0px 0px 25px white;
+}
+
+/* Onsite Text */
+
+h1 {
+	font-size: 3.75rem;
+	margin: 0 0 40px 0;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin: 0 0 30px 0;
+}
+
+h3 {
+	margin: 30px 0 0 0;
+}
+
+a {
+	color: rgb(36, 36, 36);
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+/* Classes */
+
+.center {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 90%;
+	border-radius: 20px;
+	background-color: rgba(255, 255, 255, 0.274);
+	transition: background-color 0.15s;
+}
+
+.center:hover {
+	background-color: rgba(202, 202, 202, 0.274);
+}
+
+.fade-in-text {
+	animation: fadeIn 2s;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 5%;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+/* Fade-In Animation */
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

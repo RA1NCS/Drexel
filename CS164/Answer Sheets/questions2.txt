@@ -1,0 +1,77 @@
+SHREYAN GUPTA
+sg3778
+LAB 066
+
+
+QUESTION 1:
+Q is the right answer
+
+
+QUESTION 2:
+No question given so no answer to write
+
+
+QUESTION 3:
+The color of the LED turns from brown to red indicating that the LED light is turned on.
+
+
+QUESTION 4:
+Adding a NOT gate (to act as the inverter) makes it so that when the button is toggled off, the LED turns on, but when the button is toggled on, the LED turns off.
+
+
+QUESTION 5:
+
+       A   |   B   |  Sum  | Carry 
+    -------+-------+-------+---------
+       0   |   0   |   0   |   0   
+       0   |   1   |   1   |   0   
+       1   |   0   |   1   |   0   
+       1   |   1   |   0   |   1   
+
+
+QUESTION 6:
+
+       A   |   B   |   X 
+    -------+-------+-------
+       0   |   0   |   0   
+       0   |   1   |   1   
+       1   |   0   |   1   
+       1   |   1   |   2
+
+
+QUESTION 7:
+
+       X   |   Y   |   A 
+    -------+-------+--------
+       0   |   0   |   1   
+       0   |   1   |   1   
+       1   |   0   |   0   
+       1   |   1   |   1
+
+
+QUESTION 8:
+
+¬ X ∨ Y 
+
+or
+
+NOT X OR Y
+
+or 
+
+X' + Y
+
+
+QUESTION 9:
+
+       X   |   Y   |   A 
+    -------+-------+--------
+       0   |   0   |   1   
+       0   |   1   |   1   
+       1   |   0   |   0   
+       1   |   1   |   1
+
+
+QUESTION 10:
+
+https://cs.drexel.edu/~sg3778/boolean.html
